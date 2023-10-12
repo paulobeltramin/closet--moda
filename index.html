@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luc closet</title>
+
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- arquivos externos -->
+    <link rel="stylesheet" href="/links/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_css_bootstrap.min.css">
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg stick top">
+        <div class="row align-items-center nav-li container ">
+            <div class="col-md-4">
+                <h1 class="font-autour  mt-2 fw-bold">Luc<span class="color-pink">Closet</span>
+                </h1>
+            </div>
+
+            <div class="col-md-8">
+
+
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <nav id="menu">
+                    <ul>
+                        <a class="text-color fw-bold mt-2" href="#sobre">
+                            <li>Sobre a loja</li>
+                        </a>
+                        <a class="text-color fw-bold mt-2" href="#produtos">
+                            <li>Produtos</li>
+                        </a>
+                        <a class="text-color fw-bold mt-2" href="#contato">
+                            <li>Contato</li>
+                        </a>
+                        <a class="text-color fw-bold mt-2" href="#login">
+                            <li>Login</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- slider -->
+    <section class="container-fluid carousel-slide" id="carousel-images" data-bs-ride="carousel">
+
+        <div class="carousel-inner ">
+
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#carousel-images" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-images" data-bs-slide-to="1"></button>
+
+            </div>
+
+            <div class="carousel-item active">
+                <img src="/images/slide1.png" class="d-block w-100" alt="slide">
+            </div>
+
+            <div class="carousel-item">
+                <img src="/images/slide2.png" class="d-block w-100" alt="slide">
+            </div>
+        </div>
+    </section>
+
+    <!-- sobre a loja -->
+    <section class="container">
+        <div class="row">
+            <h2 class="color-pink fw-bold font-roboto mt-4 mb-3 text-center ">Sobre a Loja</h2>
+        </div>
+
+        <div class="card">
+            <div class="row card_body">
+                <div class="col-md-4">
+                    <img src="/images/logo-card.png" class="rounded w-100 " alt="sobre a loja">
+                </div>
+                <div class="col-md-8" id="sobre">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mb-3 mt-3 fw-bold">SOBRE A LUC CLOSET</h5>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                            ab deserunt sapiente iure unde rerum, eligendi cupiditate rem itaque accusamus dolor
+                            adipisci repellendus saepe similique laudantium assumenda voluptates, delectus error!</p>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                            ab deserunt sapiente iure unde rerum, eligendi cupiditate rem itaque accusamus dolor
+                            adipisci repellendus saepe similique laudantium assumenda voluptates, delectus error!</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="border-pink mt-3 mb-3"></div>
+
+    <!-- produtos -->
+
+    <div class="container-fluid" id="produtos">
+
+        <div class="row">
+            <div>
+                <h1 class="color-pink text-center font-roboto fw-bold mt-4 mb-4">Nossas linhas de produtos</h1>
+            </div>
+
+            <div class="col-md-2 ">
+                <nav class=" nav nav-pills">
+                    <ul class="fw-bold nav_item">
+
+                        <li class="nav-item  active" data-bs-toggle="tab" data-bs-target="#camisas">
+                            <a class="nav-link fw-bold fs-3 ">
+                                Camisas</a>
+                        </li>
+
+                        <li class="nav-item  " data-bs-toggle="tab" data-bs-target="#calcas">
+                            <a class="nav-link fw-bold fs-3 ">Calças</a>
+                        </li>
+
+                        <li class="nav-item " data-bs-toggle="tab" data-bs-target="#blusas">
+                            <a class="nav-link fw-bold fs-3 ">
+                                Blusas</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-md-10">
+                <div class="tab-content produtos text-center   ">
+
+                    <div class="tab-pane active" id="camisas">
+                        <div class="row">
+                            <div class="col-md-3 mb-4 d-flex flex-column">
+                                <img src="/images/images-3.jpeg" alt="img3">
+
+                                <p>Blusinhas femininas</p>
+                                <strong>R$ 105,00</strong>
+                                <button class="btn btn-primary fw-bold mb-5">Ver detalhes</button>
+                            </div>
+
+                            <div class="col-md-3 mb-4 d-flex flex-column">
+                                <img src="/images/images-3.jpeg" alt="img3">
+
+                                <p>Blusinhas femininas</p>
+                                <strong>R$ 105,00</strong>
+                                <button class="btn btn-primary fw-bold mb-5">Ver detalhes</button>
+                            </div>
+
+                            <div class="col-md-3 mb-4 d-flex flex-column">
+                                <img src="/images/images-3.jpeg" alt="img3">
+
+                                <p>Blusinhas femininas</p>
+                                <strong>R$ 105,00</strong>
+                                <button class="btn btn-primary fw-bold mb-5">Ver detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane " id="calcas">
+                        <div class="row">
+                            <div class="col-md-3 mb-5 d-flex flex-column">
+                                <img src="/images/fashion-1.jpeg" alt="img3">
+                                <p>Calças femininas</p>
+                                <strong>R$ 105,00</strong>
+                                <button class="btn btn-primary fw-bold mb-5">Ver detalhes</button>
+                            </div>
+
+                            <div class="col-md-3 mb- d-flex flex-column">
+                                <img src="/images/fashion-1.jpeg" alt="img3">
+                                <p>Calças femininas</p>
+                                <strong>R$ 105,00</strong>
+                                <button class="btn btn-primary fw-bold mb-5">Ver detalhes</button>
+                            </div>
+
+                            <div class="col-md-3 mb- d-flex flex-column">
+                                <img src="/images/fashion-1.jpeg" alt="img3">
+                                <p>Calças femininas</p>
+                                <strong>R$ 105,00</strong>
+                                <button class="btn btn-primary fw-bold mb-5">Ver detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane " id="blusas">
+                        <div class="row">
+                            <div class="col-md-3 mb-4 d-flex flex-column">
+                                <img src="/images/fashion-2.jpeg" alt="img3">
+                                <p>Blusas femininas</p>
+                                <strong>R$ 105,00</strong>
+                                <button class="btn btn-primary fw-bold mb-5">Ver detalhes</button>
+                            </div>
+
+                            <div class="col-md-3 mb- d-flex flex-column">
+                                <img src="/images/fashion-2.jpeg" alt="img3">
+                                <p>Blusas femininas</p>
+                                <strong>R$ 105,00</strong>
+                                <button class="btn btn-primary fw-bold mb-5">Ver detalhes</button>
+                            </div>
+
+                            <div class="col-md-3 mb- d-flex flex-column">
+                                <img src="/images/fashion-2.jpeg" alt="img3">
+                                <p>Blusas femininas</p>
+                                <strong>R$ 105,00</strong>
+                                <button class="btn btn-primary fw-bold mb-5">Ver detalhes</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- formulario de contatos  -->
+    <div class="border-pink mt-3 mb-3"></div>
+
+    <section class="container">
+        <h1 class="color-pink fw-bold text-center">Contatos</h1>
+
+        <div class="row" id="contato">
+            <form>
+                <label for="Nome" class="form-label fw-bold">Seu nome:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome " class="form-control">
+
+                <label for="email" class="form-label fw-bold">Seu e-mail:</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail " class="form-control">
+
+                <label for="Nome" class="form-label fw-bold">Sua mensagem:</label>
+                <textarea placeholder="digite sua mensagem" class="form-control"></textarea>
+
+                <button type="button" class="btn btn-primary w-100 mt-3 mb-5">Enviar</button>
+            </form>
+        </div>
+
+    </section>
+
+    <div class="border-pink mt-3 mb-3"></div>
+
+    <!-- footer -->
+
+    <section class="container">
+        <div class="row footer">
+            <div class="col-md-6">
+                <address>
+                    <h3>Nosso endereço</h3>
+                    <p>Rua React n° 1000 jardim CSS</p>
+                    <strong>Londrina-PR</strong>
+                </address>
+            </div>
+
+            <div class="col-md-6">
+                <h3>Nossas redes sociais</h3>
+                <div class="row  ">
+
+                    <div class="col-md-2 icon_face">
+                        <a target="_blank" href="https://www.instagram.com/luc.closetmoda/"><span>
+                                <i class="bi bi-instagram fs-1"></i></span></a>
+                    </div>
+
+                    <div class="col-md-2 icon_face">
+                        <a target="_blank" href="http://facebook.com/luccloset"><span>
+                                <i class="bi bi-facebook  fs-1"></i></span></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+
+
+    <!-- copy -->
+    <section class="container-fluid section_copy bg-dark ">
+        <p class="text-white text-center fw-bold">LucCloset&copy;2023 __ todos os direitos reservados </p>
+    </section>
+
+
+
+
+    <!-- LINKS EXTERNO -->
+    <script src="/links/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

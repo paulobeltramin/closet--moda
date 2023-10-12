@@ -1,0 +1,97 @@
+.content-nav {
+
+    height: 70px;
+    background-color: pink;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.nav-li ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-li a {
+    text-decoration: none;
+}
+
+.text-color {
+    color: black;
+}
+
+.font-autour {
+    font-family: autour One, sans-serif;
+}
+
+.font-roboto {
+    font-family: roboto, sans-serif;
+}
+
+.color-pink {
+    color: rgba(231, 26, 94, 0.863);
+}
+
+.border-pink {
+    border: 1px solid pink;
+}
+
+.nav .nav-link {
+    color: rgba(231, 26, 94, 0.863);
+    cursor: pointer;
+
+}
+
+.nav .nav-link.active {
+    color: rgba(231, 26, 94, 0.863);
+
+}
+
+.nav .nav-link:hover {
+    color: rgba(231, 26, 94, 0.863);
+
+}
+
+#menu ul li {
+    padding: 15px;
+}
+
+.nav_item li {
+    list-style: none;
+
+}
+
+h1 {
+    font-size: 25px;
+}
+
+
+@media screen and (max-width:767px) {
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .section_copy {
+        margin: 20px 0;
+
+    }
+
+}
+
+@media screen and (min-width:767px) and (max-width:1024px) {
+    .produtos {
+        padding-left: 2em;
+    }
+
+    .card_body {
+        display: flex;
+        align-items: center;
+
+    }
+}
